@@ -1,11 +1,11 @@
 {
-  "name": "Kana Arima - Links",
-  "short_name": "Kana Arima",
-  "description": "The greatest fan of Kana Arima from ONK Series, no matter what the world has to say but I'll be the greatest fan of Kana-chan forever, want to check out my social media accounts then this page should lead you to my social media accounts.",
+  "name": "Kazuma Satō'S Portfolio",
+  "short_name": "Kazuma-kun's Portfolio",
+  "description": "Konnichiwa! I'm Kazuma-kun, a student at St. John's H.S. School in Barama, Assam. I've proudly passed my HSLC exams, but my true passion lies in the enchanting realm of anime and all things otaku!",  
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FFC0CB",
-  "theme_color": "#FFC0CB",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
   "orientation": "portrait",
   "icons": [
     {
