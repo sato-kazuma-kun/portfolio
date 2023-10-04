@@ -67,7 +67,6 @@
       color: black;
       text-decoration: none;
       text-decoration-color: white;
-      z-index: 9999999;
     }
 
     a:hover {
@@ -608,15 +607,15 @@
         <span></span>
         <span></span>
       </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      <div class="menu-links" style="z-index: 999;">
+        <li style="z-index: 9999;"><a style="z-index: 99999;" href="#about" onclick="toggleMenu()">About</a></li>
+        <li style="z-index: 9999;"><a style="z-index: 99999;" href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li style="z-index: 9999;"><a style="z-index: 99999;" href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li style="z-index: 9999;"><a style="z-index: 99999;" href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
     </div>
   </nav>
-  <section id="profile">
+  <section id="profile" style="z-index: -1;">
     <div class="section__pic-container" style="z-index: -1;">
       <img src="./assets/resources/user.jpeg" style="border-radius: 50%; z-index: -1;" alt="Kazuma Satō's profile picture" />
     </div>
